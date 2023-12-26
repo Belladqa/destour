@@ -1,0 +1,89 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+.banner-container {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-image{
+    background-image: url("../img/bg.jpg");
+    background-color: rgba(0, 0, 0,0.3);
+    background-blend-mode: overlay;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.card-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay color */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s; /* Add a smooth transition effect */
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.card-hover:hover{
+    opacity: 0.8;
+    
+}
+
+.content-text {
+    width: 65%;
+}
+
+.logo-font {
+    font-family: 'Black Ops One', sans-serif;
+    font-size: 4vh;
+}
+
+.nav-font {
+    font-family: 'Kanit', sans-serif;
+}
+
+.nav-item {
+    margin: auto 5%;
+    font-size: 2.5vh;
+}
+
+.nav-link {
+    color: white;
+}
+
+li:hover{
+   background-color: rgba(240, 248, 255, 0.411); 
+   border-radius: 10px;
+}
+
+.card-width {
+    width: 80%;
+}
+
+.ml-6 {
+    margin-left: 10%;
+}
+
+.widthfooter{
+    max-width: 100%;
+}
+
+.mt-7 {
+    margin-top: 16.5vh;
+}
+
+.card{
+    border-radius: 20px;
+}
